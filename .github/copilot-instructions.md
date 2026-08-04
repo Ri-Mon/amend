@@ -1,8 +1,8 @@
-# Front-End AI Engineering Capstone — AI Assistant Rules
+# Front-End AI Engineering Capstone — Copilot Instructions
 
 ## Purpose
 
-This file provides guidance for AI assistants collaborating on this repository.
+This file provides guidance for GitHub Copilot when working in this repository. VS Code automatically applies these instructions to Copilot Chat requests within this workspace.
 Follow these conventions unless the user explicitly requests otherwise.
 
 ---
