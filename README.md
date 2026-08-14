@@ -30,8 +30,18 @@ repos rather than here.
 
 ## Status
 
-🚧 **Setup phase.** Project idea and tech stack scaffolding are in progress.
-This README will be updated once the capstone direction is finalized.
+✅ **Current build:** a responsive account settings form built with React and Vite.
+The project is set up for local development and includes a polished settings
+layout with profile details, theme selection, and notification toggles.
+
+## Running the App
+
+```bash
+npm install
+npm run dev -- --host 0.0.0.0 --port 3000
+```
+
+Then open http://localhost:3000 in the browser.
 
 ## Roadmap
 
