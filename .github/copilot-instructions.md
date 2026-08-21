@@ -87,6 +87,22 @@ When assisting with this repository:
 * Remember that this repository is both a learning resource and a
   professional portfolio.
 
+## Project Rules (from FE-03 AI-Assisted Workflow Drill)
+
+- Forms use react-hook-form + zod. Validation error messages must be
+  explicit and required-specific (e.g. "Full name is required"), never
+  left to a validator's default message or an unvalidated empty state.
+
+- Any prompt requesting a "rebuild" or "redesign" of an existing component
+  must explicitly list every UI element that must be preserved (headings,
+  layout structure, specific styling). Unlisted elements will be silently
+  dropped in a full rewrite, not kept by default.
+
+- Any UI state that changes on user interaction (theme, language,
+  selection, etc.) must be visibly wired to something rendered on screen.
+  Verify this by checking the actual UI, not just the state value in dev
+  tools or React DevTools.
+
 ---
 
 ## Documentation Guidelines

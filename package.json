@@ -1,0 +1,66 @@
+{
+  "name": "frontend-ai-engineering-project",
+  "version": "1.0.0",
+  "description": "Capstone repository for the **Front-End AI Engineering** track of the\r [FlyRank AI Internship](https://internship.flyrank.ai/). Built module by\r module, from environment setup through a final capstone project, using\r AI-assisted development as the core working method.",
+  "main": "index.js",
+  "dependencies": {
+    "@hookform/resolvers": "^5.9.1",
+    "baseline-browser-mapping": "^2.11.14",
+    "browserslist": "^4.28.8",
+    "caniuse-lite": "^1.0.30001809",
+    "convert-source-map": "^2.0.0",
+    "debug": "^4.4.3",
+    "electron-to-chromium": "^1.5.406",
+    "esbuild": "^0.21.5",
+    "escalade": "^3.2.0",
+    "gensync": "^1.0.0-beta.2",
+    "js-tokens": "^4.0.0",
+    "jsesc": "^3.1.0",
+    "json5": "^2.2.3",
+    "loose-envify": "^1.4.0",
+    "lru-cache": "^5.1.1",
+    "ms": "^2.1.3",
+    "nanoid": "^3.3.18",
+    "node-releases": "^2.0.53",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.26",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.85.0",
+    "react-refresh": "^0.17.0",
+    "rollup": "^4.62.4",
+    "scheduler": "^0.23.2",
+    "semver": "^6.3.1",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.3.1",
+    "vite": "^5.4.21",
+    "yallist": "^3.1.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.5",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^30.0.1",
+    "vitest": "^4.1.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ri-Mon/frontend-ai-engineering-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ri-Mon/frontend-ai-engineering-project/issues"
+  },
+  "homepage": "https://github.com/Ri-Mon/frontend-ai-engineering-project#readme"
+}
